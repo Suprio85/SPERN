@@ -1,11 +1,11 @@
 "use client"
 
 import { useState } from "react"
-import Link from "link"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { ArrowLeft, Download, Copy, Check } from "lucide-react"
-import QRCode from "qrcode"
+import QRCode from  "qrcode"
 
 export default function QRPage() {
   const [qrCode, setQrCode] = useState<string>("")
